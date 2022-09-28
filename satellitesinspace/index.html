@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>satellitesinspace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <iframe class="bg-video" src="https://www.youtube.com/embed/86YLFOog4GM?controls=0&vq=hd1080&modestbranding=1&showinfo=0rel=0&mute=1&autoplay=1&fs=0&playlist=86YLFOog4GM" 
+        frameborder="0" allow="autoplay" allowfullscreen></iframe>
+        <nav>
+            <ul>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#">Owners</a></li>
+                <li><a href="#">Orbit</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>5,465</h1>
+            <p class="cover-para">satellites currently orbiting Earth,<br> including their country of origin, purpose, and other operational details.</p>
+            <a href="https://www.ucsusa.org/resources/satellite-database">
+                <button class="btn-1"type="button">View source</button>
+            </a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <div class="search_container">
+        <h2 class="satellite_search">Enter Satellite Name :</h2>
+        <input id="satellite_name"></input>
+        <button id="satellite_button">Search</button>
+    </div>
+    <div id="map">
+        <img src="assets/every-satellite-orbiting-earth-who-owns-them-optimized.png" alt="By DEWESoft" class="map-png"/>
+    </div>
+</body>
+</html>
